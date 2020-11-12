@@ -1,0 +1,23 @@
+{
+  "name": "forumfinal",
+  "version": "1.0.0",
+  "description": "Questions",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sylafari/ForumFinal.git"
+  },
+  "author": "Quinn Cheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sylafari/ForumFinal/issues"
+  },
+  "homepage": "https://github.com/Sylafari/ForumFinal#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  }
+}
