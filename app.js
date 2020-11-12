@@ -42,10 +42,17 @@ app.get('/', (req, res) => {
         articles: articles
         });
         }
-        
     });
-    
 });
+
+// Get Single Article
+app.get('/article/:id', (req,res)=>{
+    Article.findById(req.params.id, (err, article)=>{
+        res.render('article', {
+            article:article
+        });
+    });
+})
 
 // Add Route
 app.get('/articles/add', (req,res)=>
